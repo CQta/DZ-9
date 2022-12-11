@@ -1,7 +1,7 @@
 ﻿int[,] SizeMatrix(){
 
-    int rows = int.Parse(Console.ReadLine()!);
-    int colons = int.Parse(Console.ReadLine()!);
+    int rows = int.Parse(Console.ReadLine());
+    int colons = int.Parse(Console.ReadLine());
     return FillArray(new int[rows,colons]);
 }
 
@@ -17,7 +17,7 @@ int[,] FillArray(int[,] matrix){
     return matrix;
 }
 int[,] ProducrMatrix(int[,] matrix1, int[,] matrix2){
-
+    
     if(matrix1.GetLength(1) != matrix2.GetLength(0)){
         System.Console.WriteLine("Матрицы невозможно перемножить в таком порядке");
         return matrix1;
