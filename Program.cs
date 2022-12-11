@@ -1,21 +1,16 @@
-﻿System.Console.WriteLine("Введите длинну и ширину массива");
-int rows = int.Parse(Console.ReadLine()!);
-int[,] array = new int[rows,rows];
-int i = 0;
-int j = 0;
-for(int temp =1; temp <= rows*rows; temp++)
+﻿int Print_sum(int a, int b)
 {
-    array[i,j] = temp;
-    if(i <= j + 1 && i + j < rows-1) j++;
-    else if(i < j && i + j >= rows - 1) i++;
-    else if(i >= j && i+ j > rows - 1) j--;
-    else i--;
-}
-for (int x = 0; x < array.GetLength(0); x++)
-{
-    for (int y = 0; y < array.GetLength(1); y++)
+    int sum =0;
+    if(a==b) return a;
+    if(a>b) (a,b)=(b,a);
+    for(;a<b+1;a++)
     {
-        System.Console.Write($"{array[x,y]}\t");
+        sum +=a;
     }
-    System.Console.WriteLine();
+    return sum;
 }
+System.Console.WriteLine("Введите число");
+int num = int.Parse(Console.ReadLine()!);
+System.Console.WriteLine("Введите 2 число");
+int num2 = int.Parse(Console.ReadLine()!);
+System.Console.WriteLine(Print_sum(num, num2));
