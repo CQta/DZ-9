@@ -1,0 +1,15 @@
+C:\Users\Kirill\Documents\Prog\bin\Debug\net7.0\Prog.exe
+C:\Users\Kirill\Documents\Prog\bin\Debug\net7.0\Prog.deps.json
+C:\Users\Kirill\Documents\Prog\bin\Debug\net7.0\Prog.runtimeconfig.json
+C:\Users\Kirill\Documents\Prog\bin\Debug\net7.0\Prog.dll
+C:\Users\Kirill\Documents\Prog\bin\Debug\net7.0\Prog.pdb
+C:\Users\Kirill\Documents\Prog\obj\Debug\net7.0\Prog.csproj.AssemblyReference.cache
+C:\Users\Kirill\Documents\Prog\obj\Debug\net7.0\Prog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kirill\Documents\Prog\obj\Debug\net7.0\Prog.AssemblyInfoInputs.cache
+C:\Users\Kirill\Documents\Prog\obj\Debug\net7.0\Prog.AssemblyInfo.cs
+C:\Users\Kirill\Documents\Prog\obj\Debug\net7.0\Prog.csproj.CoreCompileInputs.cache
+C:\Users\Kirill\Documents\Prog\obj\Debug\net7.0\Prog.dll
+C:\Users\Kirill\Documents\Prog\obj\Debug\net7.0\refint\Prog.dll
+C:\Users\Kirill\Documents\Prog\obj\Debug\net7.0\Prog.pdb
+C:\Users\Kirill\Documents\Prog\obj\Debug\net7.0\Prog.genruntimeconfig.cache
+C:\Users\Kirill\Documents\Prog\obj\Debug\net7.0\ref\Prog.dll
