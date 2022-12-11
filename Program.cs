@@ -1,7 +1,7 @@
 ﻿int[,] SizeMatrix(){
 
-    int rows = int.Parse(Console.ReadLine());
-    int colons = int.Parse(Console.ReadLine());
+    int rows = int.Parse(Console.ReadLine()!);
+    int colons = int.Parse(Console.ReadLine()!);
     return FillArray(new int[rows,colons]);
 }
 
